@@ -9,7 +9,9 @@ weather_data = (
 )
 
 response = requests.get(weather_data)
-print(response.json())
+# print(response.json())
+
+# Add condition to avoid unexpected errors
 if response.status_code == 200:
     data = response.json()
     temperature = data["main"]["temp"]
