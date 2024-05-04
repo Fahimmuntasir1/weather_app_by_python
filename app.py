@@ -17,7 +17,7 @@ if response.status_code == 200:
     temperature = data["main"]["temp"]
     description = data["weather"][0]["description"]
     country = data["sys"]["country"]
-    print(f"Temperature: {temperature} K")
+    print(f"Temperature: {temperature - 273} C")
     print(f"Description: {description}")
     print(f"Country: {country}")
 else:
