@@ -2,6 +2,7 @@
 # - - - - - - - - - - -- - ----------->>
 import requests
 
+# get api key from openweathermap.org
 api_key = "66c7de2faaa5e5c7252ac24458a454de"
 user_input = input("Enter a city: ")
 weather_data = (
