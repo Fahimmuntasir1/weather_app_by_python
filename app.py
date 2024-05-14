@@ -22,4 +22,4 @@ if response.status_code == 200:
     print(f"Description: {description}")
     print(f"Country: {country}")
 else:
-    print("Error fetching weather data")
+    print("Something went wrong in this app, try again later.")
